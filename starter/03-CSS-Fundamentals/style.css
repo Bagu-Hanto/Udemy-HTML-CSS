@@ -9,6 +9,13 @@ body {
   font-family: sans-serif;
 }
 
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 nav {
   font-size: 18px;
 }
@@ -17,6 +24,7 @@ nav {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-header {
@@ -25,6 +33,15 @@ nav {
 
 article {
   margin-bottom: 60px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  /* border: 5px solid #1098ad; */
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -103,14 +120,6 @@ li:last-child {
   list-style: none;
 }
 
-aside {
-  background-color: #f7f7f7;
-  /* border: 5px solid #1098ad; */
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-}
-
 body {
   /* background-color: orangered; */
 }
@@ -155,4 +164,9 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
 }
